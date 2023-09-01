@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class moreWidget extends StatelessWidget {
+class MoreWidget extends StatelessWidget {
   final String content;
   final double fontSize;
 
-  const moreWidget({super.key, required this.content, required this.fontSize});
+  const MoreWidget({super.key, required this.content, required this.fontSize});
 
   @override
   Widget build(BuildContext context) {

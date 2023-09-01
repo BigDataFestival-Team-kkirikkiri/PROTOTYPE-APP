@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class titleColorStartNoIconNoPadding extends StatelessWidget {
+class TitleColorStartNoIconNoPadding extends StatelessWidget {
   final String title1;
   final String colorTitle;
   final Color color;
   final double fontSize;
 
-  const titleColorStartNoIconNoPadding(
+  const TitleColorStartNoIconNoPadding(
       {super.key,
       required this.title1,
       required this.colorTitle,

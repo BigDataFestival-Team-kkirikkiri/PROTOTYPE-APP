@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class patternWidget extends StatelessWidget {
+class PatternWidget extends StatelessWidget {
   final String title;
   final double titleSize;
   final String semiTitle;
@@ -9,7 +9,7 @@ class patternWidget extends StatelessWidget {
   final String content2;
   final double contentSize;
 
-  const patternWidget(
+  const PatternWidget(
       {super.key,
       required this.title,
       required this.titleSize,
@@ -25,7 +25,7 @@ class patternWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.grey[800],
+          color: Colors.grey[850],
           borderRadius: BorderRadius.circular(10),
         ),
         child: Padding(

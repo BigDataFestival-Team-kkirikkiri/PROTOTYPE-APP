@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:prototype/widgets/service/company_danger.dart';
 
-class peopleListMe extends StatelessWidget {
+class PeopleListMe extends StatelessWidget {
   final String rank;
   final String rateOfReturn;
   final String name;
@@ -11,7 +11,7 @@ class peopleListMe extends StatelessWidget {
   final Color rateColor;
   final Color containerColor;
 
-  const peopleListMe({
+  const PeopleListMe({
     super.key,
     required this.rank,
     required this.rateOfReturn,
@@ -56,7 +56,7 @@ class peopleListMe extends StatelessWidget {
                     fontSize: fontSize,
                     fontWeight: FontWeight.bold),
               ),
-              companyDanger(name: name, fontSize: fontSize, color: iconColor),
+              CompanyDanger(name: name, fontSize: fontSize, color: iconColor),
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 3),
                 decoration: BoxDecoration(

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class companyDanger extends StatelessWidget {
+class CompanyDanger extends StatelessWidget {
   final String name;
   final double fontSize;
   final Color color;
 
-  const companyDanger(
+  const CompanyDanger(
       {super.key,
       required this.name,
       required this.fontSize,

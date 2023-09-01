@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class spaceWidget extends StatelessWidget {
+class SpaceWidget extends StatelessWidget {
   final double spaceHeight;
   final double spaceWidth;
 
-  const spaceWidget(
+  const SpaceWidget(
       {super.key, required this.spaceHeight, required this.spaceWidth});
 
   @override

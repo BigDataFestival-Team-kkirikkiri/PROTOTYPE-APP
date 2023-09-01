@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:prototype/widgets/common/containerSpace.dart';
+import 'package:prototype/widgets/common/content_color_between.dart';
 import 'package:prototype/widgets/common/more.dart';
 import 'package:prototype/widgets/common/new_text.dart';
-import 'package:prototype/widgets/common/content_color_between.dart';
-import 'package:prototype/widgets/modal.dart';
-import 'package:prototype/widgets/modal_title/rank_title.dart';
-import 'package:prototype/widgets/people_list.dart';
 import 'package:prototype/widgets/modal_title/danger_title.dart';
 import 'package:prototype/widgets/modal_title/pattern_title.dart';
+import 'package:prototype/widgets/modal_title/rank_title.dart';
+import 'package:prototype/widgets/people_list.dart';
 import 'package:prototype/widgets/service/danger.dart';
 import 'package:prototype/widgets/service/pattern.dart';
 import 'package:prototype/widgets/service/people_list_me.dart';
@@ -42,14 +41,14 @@ class MainService extends StatelessWidget {
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      dangerTitle(title1: "나의 관심 종목 위험도 평가", fontSize: 20),
-                      moreWidget(content: "더보기", fontSize: 15),
+                      DangerTitle(title1: "나의 관심 종목 위험도 평가", fontSize: 20),
+                      MoreWidget(content: "더보기", fontSize: 15),
                     ],
                   ),
                 ),
               ],
             ),
-            const dangerWidget(
+            const DangerWidget(
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
@@ -61,7 +60,7 @@ class MainService extends StatelessWidget {
                 entName: "하이브",
                 stockName: "272,084",
                 stockRate: "+ 0.40%"),
-            const dangerWidget(
+            const DangerWidget(
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
@@ -73,7 +72,7 @@ class MainService extends StatelessWidget {
                 entName: "JYP Ent.",
                 stockName: "201.344",
                 stockRate: "+ 0.70%"),
-            const dangerWidget(
+            const DangerWidget(
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
@@ -85,7 +84,7 @@ class MainService extends StatelessWidget {
                 entName: "에스엠",
                 stockName: "183,010",
                 stockRate: "- 0.40%"),
-            const dangerWidget(
+            const DangerWidget(
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
@@ -97,14 +96,14 @@ class MainService extends StatelessWidget {
                 entName: "와이지엔터테인먼트",
                 stockName: "187,951",
                 stockRate: "+ 0.61%"),
-            const containerSpace(spaceHeight: 4.5),
-            const patternTitle(
+            const ContainerSpace(spaceHeight: 4.5),
+            const PatternTitle(
                 title1: "나의 주식",
                 color: Colors.orange,
                 colorTitle: " 투자 유형",
                 title2: "은?",
                 fontSize: 20),
-            const patternWidget(
+            const PatternWidget(
                 title: "라이트급 마라토너",
                 titleSize: 15,
                 semiTitle: "적은 시드머니를 이용한 장기 투자를 선호합니다.",
@@ -119,16 +118,16 @@ class MainService extends StatelessWidget {
                 color: Colors.orange,
                 title2: "들 둘러보기",
                 fontSize: 20),
-            const contentColorBetween(
+            const ContentColorBetween(
                 title1: "같은 유형이지만",
                 colorTitle: " 더 높은 수익률",
                 color: Colors.orange,
                 title2: "을 가진 사람들의 선택은 어떨까요?",
                 fontSize: 13),
-            const peopleListTop(
+            const PeopleListTop(
               fontSize: 12,
             ),
-            const peopleList(
+            const PeopleList(
                 rank: "1",
                 rateOfReturn: "120.19%",
                 name: "엔비디아",
@@ -137,7 +136,7 @@ class MainService extends StatelessWidget {
                 iconColor: Colors.yellow,
                 rateColor: Colors.red,
                 containerColor: Colors.red),
-            const peopleList(
+            const PeopleList(
                 rank: "2",
                 rateOfReturn: "117.23%",
                 name: "LG화학",
@@ -146,7 +145,7 @@ class MainService extends StatelessWidget {
                 iconColor: Colors.blue,
                 rateColor: Colors.red,
                 containerColor: Colors.red),
-            const peopleList(
+            const PeopleList(
                 rank: "3",
                 rateOfReturn: "114.08%",
                 name: "SM C&C",
@@ -155,7 +154,7 @@ class MainService extends StatelessWidget {
                 iconColor: Colors.yellow,
                 rateColor: Colors.blue,
                 containerColor: Colors.blue),
-            const peopleList(
+            const PeopleList(
                 rank: "4",
                 rateOfReturn: "107.09%",
                 name: "SK하이닉스",
@@ -164,7 +163,7 @@ class MainService extends StatelessWidget {
                 iconColor: Colors.yellow,
                 rateColor: Colors.blue,
                 containerColor: Colors.blue),
-            const peopleList(
+            const PeopleList(
                 rank: "5",
                 rateOfReturn: "102.36%",
                 name: "셀트리온",
@@ -173,7 +172,7 @@ class MainService extends StatelessWidget {
                 iconColor: Colors.red,
                 rateColor: Colors.blue,
                 containerColor: Colors.blue),
-            const peopleList(
+            const PeopleList(
                 rank: "6",
                 rateOfReturn: "99.83%",
                 name: "POSCO홀딩스",
@@ -182,7 +181,7 @@ class MainService extends StatelessWidget {
                 iconColor: Colors.blue,
                 rateColor: Colors.red,
                 containerColor: Colors.red),
-            const peopleListMe(
+            const PeopleListMe(
                 rank: "상위 42%",
                 rateOfReturn: "32.01%",
                 name: "하이브",
@@ -191,16 +190,17 @@ class MainService extends StatelessWidget {
                 iconColor: Colors.blue,
                 rateColor: Colors.red,
                 containerColor: Colors.red),
-            const containerSpace(spaceHeight: 4.5),
-            const rankTitle(
+            const ContainerSpace(spaceHeight: 4.5),
+            const RankTitle(
                 title1: "나의",
                 fontSize: 20,
                 colorTitle: "수익률 랭킹",
                 color: Colors.orange),
-            const newTextWidget(
+            const NewTextWidget(
                 title: "그동안의 나의 주식 성장 단계를 그래프로 보여드릴게요", fontSize: 13),
-            const newTextWidget(
+            const NewTextWidget(
                 title: "나의 성장 단계를 통해서 현재 상황을 점검 하세요.", fontSize: 13),
+            const RankChart(),
           ],
         ),
       ),

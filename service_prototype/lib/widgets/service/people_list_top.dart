@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class peopleListTop extends StatelessWidget {
+class PeopleListTop extends StatelessWidget {
   final double fontSize;
 
-  const peopleListTop({super.key, required this.fontSize});
+  const PeopleListTop({super.key, required this.fontSize});
 
   @override
   Widget build(BuildContext context) {

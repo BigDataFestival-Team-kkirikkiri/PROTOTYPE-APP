@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class newTextWidget extends StatelessWidget {
+class NewTextWidget extends StatelessWidget {
   final String title;
   final double fontSize;
 
-  const newTextWidget({super.key, required this.title, required this.fontSize});
+  const NewTextWidget({super.key, required this.title, required this.fontSize});
 
   @override
   Widget build(BuildContext context) {

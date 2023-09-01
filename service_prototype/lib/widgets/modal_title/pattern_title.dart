@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:prototype/widgets/modal_content/pattern_modal.dart';
 
-class patternTitle extends StatelessWidget {
+class PatternTitle extends StatelessWidget {
   final String title1;
   final String colorTitle;
   final Color color;
   final String title2;
   final double fontSize;
 
-  const patternTitle(
+  const PatternTitle(
       {super.key,
       required this.title1,
       required this.color,
@@ -50,9 +50,10 @@ class patternTitle extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 showModalBottomSheet(
+                  backgroundColor: Colors.white.withOpacity(0),
                   context: context,
                   builder: (BuildContext context) {
-                    return const patternModal();
+                    return const PatternModal();
                   },
                 );
               },

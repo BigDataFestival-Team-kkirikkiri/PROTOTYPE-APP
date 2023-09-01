@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:prototype/widgets/common/text_widget.dart';
 import 'package:prototype/widgets/modal_content/title_color_start_no_icon_no_padding.dart';
 
-class rankModal extends StatelessWidget {
-  const rankModal({super.key});
+class RankModal extends StatelessWidget {
+  const RankModal({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,25 +13,25 @@ class rankModal extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.grey[800],
         borderRadius: const BorderRadius.only(
-          topLeft: Radius.circular(10),
-          topRight: Radius.circular(10),
+          topLeft: Radius.circular(25),
+          topRight: Radius.circular(25),
         ),
       ),
       child: Column(
         children: [
           const SizedBox(height: 10),
-          const titleColorStartNoIconNoPadding(
+          const TitleColorStartNoIconNoPadding(
               title1: "은 어떤 기준으로 나눠지는 거죠?",
               colorTitle: "수익률 랭킹",
               color: Colors.orange,
               fontSize: 18),
           const SizedBox(height: 10),
-          const textWidget(
+          const TextWidget(
               text: "수익률 랭킹은 매월 수익률을 계산하여 보여드립니다.",
               textColor: Colors.white,
               fontSize: 13,
               fontWeight: FontWeight.w600),
-          const textWidget(
+          const TextWidget(
               text: "매월 나의 수익률 성과를 보기 쉽게 랭킹으로 나눠서 보여드려요 !",
               textColor: Colors.white,
               fontSize: 13,

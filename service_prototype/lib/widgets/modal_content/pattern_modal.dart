@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:prototype/widgets/common/text_widget.dart';
 import 'package:prototype/widgets/modal_content/title_color_between_no_icon_no_padding.dart';
 
-class patternModal extends StatelessWidget {
-  const patternModal({super.key});
+class PatternModal extends StatelessWidget {
+  const PatternModal({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,43 +13,43 @@ class patternModal extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.grey[800],
         borderRadius: const BorderRadius.only(
-          topLeft: Radius.circular(10),
-          topRight: Radius.circular(10),
+          topLeft: Radius.circular(25),
+          topRight: Radius.circular(25),
         ),
       ),
       child: const Column(
         children: [
           SizedBox(height: 10),
-          titleColorBetweenNoIconNoPadding(
+          TitleColorBetweenNoIconNoPadding(
               title1: "나의 주식",
               colorTitle: " 투자유형",
               color: Colors.orange,
               title2: " 이란 ?",
               fontSize: 20),
           SizedBox(height: 10),
-          textWidget(
+          TextWidget(
               text: "미래에셋 M-STOCK 의 AI 서비스는 대고객 데이터를 바탕으로 ",
               textColor: Colors.white,
               fontSize: 13,
               fontWeight: FontWeight.w600),
-          textWidget(
+          TextWidget(
               text: "비슷한 투자 성향의 사용자 끼리 그룹화 합니다.",
               textColor: Colors.white,
               fontSize: 13,
               fontWeight: FontWeight.w600),
           SizedBox(height: 10),
-          textWidget(
+          TextWidget(
               text: "그룹 내에서 나의 위치, 상위 투자자들의 정보를 이용해.",
               textColor: Colors.white,
               fontSize: 13,
               fontWeight: FontWeight.w600),
-          textWidget(
+          TextWidget(
               text: "그룹 리더보드에 이름을 올려보세요 !.",
               textColor: Colors.white,
               fontSize: 13,
               fontWeight: FontWeight.w600),
           SizedBox(height: 20),
-          textWidget(
+          TextWidget(
               text: "M-STOCK 그룹들",
               textColor: Colors.orange,
               fontSize: 18,
@@ -84,22 +84,22 @@ class patternModal extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              textWidget(
+              TextWidget(
                   text: "라이트급 마라토너",
                   textColor: Colors.white,
                   fontSize: 10,
                   fontWeight: FontWeight.bold),
-              textWidget(
+              TextWidget(
                   text: "라이트급 스프린터",
                   textColor: Colors.white,
                   fontSize: 10,
                   fontWeight: FontWeight.bold),
-              textWidget(
+              TextWidget(
                   text: "라이트급 마라토너",
                   textColor: Colors.white,
                   fontSize: 10,
                   fontWeight: FontWeight.bold),
-              textWidget(
+              TextWidget(
                   text: "라이트급 스프린터",
                   textColor: Colors.white,
                   fontSize: 10,

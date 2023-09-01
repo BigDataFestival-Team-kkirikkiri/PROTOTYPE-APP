@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class contentColorBetween extends StatelessWidget {
+class ContentColorBetween extends StatelessWidget {
   final String title1;
   final String colorTitle;
   final Color color;
   final String title2;
   final double fontSize;
 
-  const contentColorBetween(
+  const ContentColorBetween(
       {super.key,
       required this.title1,
       required this.colorTitle,

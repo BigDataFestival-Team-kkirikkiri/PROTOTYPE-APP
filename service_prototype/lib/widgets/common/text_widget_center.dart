@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class TextWidget extends StatelessWidget {
+class TextWidgetCenter extends StatelessWidget {
   final String text;
   final Color textColor;
   final double fontSize;
   final FontWeight fontWeight;
 
-  const TextWidget(
+  const TextWidgetCenter(
       {super.key,
       required this.text,
       required this.textColor,
@@ -16,7 +16,7 @@ class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      alignment: Alignment.centerLeft,
+      alignment: Alignment.center,
       child: Text(
         text,
         textAlign: TextAlign.start,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class dangerWidget extends StatelessWidget {
+class DangerWidget extends StatelessWidget {
   final Color bgColor;
   final Color entColor;
   final Color stockColor;
@@ -13,7 +13,7 @@ class dangerWidget extends StatelessWidget {
   final String stockRate;
   final double iconSize;
 
-  const dangerWidget({
+  const DangerWidget({
     super.key,
     required this.bgColor,
     required this.entColor,

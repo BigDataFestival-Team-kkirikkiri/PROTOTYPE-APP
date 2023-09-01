@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:prototype/widgets/modal_content/rank_modal.dart';
 
-class rankTitle extends StatelessWidget {
+class RankTitle extends StatelessWidget {
   final String title1;
   final String colorTitle;
   final Color color;
   final double fontSize;
 
-  const rankTitle(
+  const RankTitle(
       {super.key,
       required this.title1,
       required this.fontSize,
@@ -39,9 +39,10 @@ class rankTitle extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 showModalBottomSheet(
+                  backgroundColor: Colors.white.withOpacity(0),
                   context: context,
                   builder: (BuildContext context) {
-                    return const rankModal();
+                    return const RankModal();
                   },
                 );
               },
