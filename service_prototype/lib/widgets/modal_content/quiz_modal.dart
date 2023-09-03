@@ -3,6 +3,10 @@ import 'package:prototype/screens/main_screen.dart';
 import 'package:prototype/widgets/common/text_widget.dart';
 import 'package:prototype/widgets/common/text_widget_center.dart';
 import 'package:prototype/widgets/modal_title/quiz_title.dart';
+import 'package:intl/intl.dart';
+
+final String now = DateTime.now().toString();
+String formattedDate = DateFormat('yyyy년MM월dd일').format(DateTime.now());
 
 class QuizModal extends StatelessWidget {
   const QuizModal({super.key});
@@ -25,8 +29,8 @@ class QuizModal extends StatelessWidget {
           children: [
             Column(
               children: [
-                const TextWidget(
-                    text: "2023년 7월 20일",
+                TextWidget(
+                    text: formattedDate,
                     textColor: Colors.white,
                     fontSize: 14,
                     fontWeight: FontWeight.w300),
