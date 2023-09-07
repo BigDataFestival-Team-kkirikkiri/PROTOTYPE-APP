@@ -23,13 +23,13 @@
 
 ### 설치 및 실행
 1. 저희 깃허브 레포지토리를 클론합니다.
-  ```
-  git clone https://github.com/khlskahd-dasdsad-asdwdw/app.git
-  ```
+   ```
+   git clone https://github.com/khlskahd-dasdsad-asdwdw/app.git
+   ```
 2. 프로젝트 디렉토리로 이동합니다.
-  ```
-  cd ./app
-  ```
+   ```
+   cd ./app
+   ```
 3. 필요한 종속성을 설치합니다. 터미널에서 진행해주시면 됩니다.
    ```
    flutter pub get
