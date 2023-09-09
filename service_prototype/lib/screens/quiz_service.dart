@@ -45,7 +45,6 @@ class _QuizServiceState extends State<QuizService> {
   String getFormattedTime() {
     final hours = totalSeconds ~/ 3600;
     final minutes = (totalSeconds ~/ 60) % 60;
-    final seconds = totalSeconds % 60;
     return '$hours:${minutes.toString().padLeft(2, '0')}';
   }
 
@@ -261,11 +260,11 @@ class _QuizServiceState extends State<QuizService> {
               child: Center(
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.black.withOpacity(0),
+                    backgroundColor: Colors.black.withOpacity(1),
                   ),
                   child: Text('퀴즈 시작하기',
                       style: TextStyle(
-                        color: Colors.black.withOpacity(1),
+                        color: Colors.white.withOpacity(1),
                       )),
                   onPressed: () {
                     onStartPressed();
