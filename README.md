@@ -1,8 +1,15 @@
-# 프로젝트 이름
+# 게이미피케이션을 활용한 주가예측 기반의 종목 위험도 평가와 고객 군집화 및 수익률 랭킹 서비스
 
-## 서비스 개요
+### 서비스 개요
+본 팀의 서비스는 주식 시장에 본격적으로 입문하고 싶지만 주식에 대한 어려움을 느끼는 일명 '주린이' 고객들을 주요 대상으로 합니다. 메인 서비스는 <위험도 예측>, <고객군집화>이며, 이 서비스들을 활성화하기 위한 방안으로 게이미피케이션을 고안하였습니다.
 
-## 팀 소개
+해당 프로토타입은 이런한 서비스들을 사용자가 이용 할 수 있도록 구현하였습니다. 
+서비스 제목 옆에 플러스 버튼을 누르면 해당 서비스에 대한 설명이 나타날 수 있도록 구현하였습니다.
+
+현재까지는 프론프로 구현된 앱이며, 추후에 백엔드와 연동할 예정입니다.
+
+### 팀 소개
+<p>팀명 : 끼리끼리</p>
 <p>프로젝트 기간 : 2023/7/1 ~ </p>
 
 |    소속    |          전공           |  이름  |
@@ -67,18 +74,18 @@ lib/main.dart : 프로토타입을 실행하는 메인 코드
 ```
 ## 프로토타입 미리보기
 ### 1. 팝업 퀴즈
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/93e5a47f-ad8a-4b88-83bb-a59b1a1f77a1" width="500" height="750"/></span>
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/1bc89c8d-21a1-4656-9768-a2238c586cac" width="500" height="750"/></span> 
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/93e5a47f-ad8a-4b88-83bb-a59b1a1f77a1" width="490" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/1bc89c8d-21a1-4656-9768-a2238c586cac" width="490" height="750"/></span> 
 
 ### 2. 메인 서비스
-<div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6a98a61c-9257-4475-80b5-2d9c73088eff" width="500" height="750"/></div> 
-<div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6372e4e7-614c-4087-ab9d-42fe08985ce8" width="500" height="750"/></div> 
+<div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6a98a61c-9257-4475-80b5-2d9c73088eff" width="490" height="750"/></div> 
+<div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6372e4e7-614c-4087-ab9d-42fe08985ce8" width="490" height="750"/></div> 
 
 ### 3. 기타 상세 페이지
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/4842bf81-f413-4710-8ba7-08f3eb4a3c6a" width="500" height="750"/></span>
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/27d1966b-c42d-4601-8d8b-581e969f208c" width="500" height="750"/></span>
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/67f43666-af16-453a-8d54-4a6a531e9889" width="500" height="750"/></span>
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/d5995291-1e28-427d-a1e5-3ea4ec4476ca" width="500" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/4842bf81-f413-4710-8ba7-08f3eb4a3c6a" width="490" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/27d1966b-c42d-4601-8d8b-581e969f208c" width="490" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/67f43666-af16-453a-8d54-4a6a531e9889" width="490" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/d5995291-1e28-427d-a1e5-3ea4ec4476ca" width="490" height="750"/></span>
 
 ## 시연 영상
 아래 링크로 들어가 시연영상을 확인해주세요! <br/>
