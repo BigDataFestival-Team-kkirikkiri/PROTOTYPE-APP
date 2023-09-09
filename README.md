@@ -50,7 +50,7 @@
    - 핸드폰 크기에 맞춰서 화면을 구성해놨기에 chrome으로 실행시에 크기를 맞춰줘야 가장 비슷한 화면이 나옵니다.
    - 가상환경을 통해 앱으로 실행이 가능하지만 컴퓨터 사양에 따라 어려움이 있을수 있기에 chrome으로 실행하는걸 권장드립니다.
 
-### 디렉토리 구조
+## 디렉토리 구조
 ```
 lib : 프로토타입 실행에 주요한 코드들을 모아놓은 폴더
 
@@ -65,9 +65,22 @@ lib/widgets/title : 서비스 제목을 위한 widget
 
 lib/main.dart : 프로토타입을 실행하는 메인 코드
 ```
-### 프로토타입 미리보기
+## 프로토타입 미리보기
+### 1. 팝업 퀴즈
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/93e5a47f-ad8a-4b88-83bb-a59b1a1f77a1" width="500" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/1bc89c8d-21a1-4656-9768-a2238c586cac" width="500" height="750"/></span> 
 
-### 시연 영상
+### 2. 메인 서비스
+<div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6a98a61c-9257-4475-80b5-2d9c73088eff" width="500" height="750"/></div> 
+<div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6372e4e7-614c-4087-ab9d-42fe08985ce8" width="500" height="750"/></div> 
+
+### 3. 기타 상세 페이지
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/4842bf81-f413-4710-8ba7-08f3eb4a3c6a" width="500" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/27d1966b-c42d-4601-8d8b-581e969f208c" width="500" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/67f43666-af16-453a-8d54-4a6a531e9889" width="500" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/d5995291-1e28-427d-a1e5-3ea4ec4476ca" width="500" height="750"/></span>
+
+## 시연 영상
 아래 링크로 들어가 시연영상을 확인해주세요! <br/>
 현재 까지의 개발은 프로토타입이고 앱을 배포하기까지에는 어려움이 있어서 시연영상을 촬영하였습니다. <br/>
 해당 촬영영상은 Flutter에서 제공하는 디버깅에서 작성된 영상입니다. <br/>
