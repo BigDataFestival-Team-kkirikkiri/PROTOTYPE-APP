@@ -75,8 +75,10 @@ lib/main.dart : 프로토타입을 실행하는 메인 코드
 ```
 ## 프로토타입 미리보기
 ### 1. 팝업 퀴즈
+#### 1-1. 퀴즈 화면
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/f5ad998e-c8ea-42d6-a2a7-d12f2b21e962" width="490" height="750"/></span>
 -----
+#### 1-2. 퀴즈 정답 화면
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/455b3556-63fb-4c47-9c37-8465d61fef77" width="490" height="750"/></span> 
 
 ### 2. 메인 서비스
@@ -84,12 +86,16 @@ lib/main.dart : 프로토타입을 실행하는 메인 코드
 <div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/c3db19a8-a652-4658-914c-625f6ae69aeb" width="510" height="750"/></div> 
 
 ### 3. 기타 상세 페이지
+#### 3-1. 퀴즈 상세 설명
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/0595dc2b-ca50-4ee2-b187-3de2be674b3a" width="490" height="750"/></span>
 -----
+#### 3-2. 위험도 평가 상세 설명
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/1f9cd7ef-bd79-4d6c-b3f3-b78e767ad630" width="490" height="750"/></span>
 -----
+#### 3-3. 주식 투자유형 상세 설명
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/b069c135-b83b-4adf-84d7-e05656fb51e0" width="490" height="750"/></span>
 -----
+#### 3-4. 수익률랭킹 상세 설명
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/0a29add9-a82a-4553-8eab-4519294f45f0" width="490" height="750"/></span>
 
 ## 시연 영상
