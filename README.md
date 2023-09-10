@@ -21,7 +21,7 @@
 ## 📌 권장 사항
 <p>Flutter 와 Android studio 설치와 환경설정이 다소 복잡하여 아래에 있는 시연영상으로 확인하시는걸 권장해드립니다.</p>
 
-### [☑️ 시연영상 보기](https://www.youtube.com/watch?v=uvFH1tF58iM)
+### [☑️ 시연영상 보기](https://youtu.be/IwJkYmmxSGU)
 
 ## 시작하기
 ### 필수사항
@@ -106,6 +106,6 @@ lib/main.dart : 프로토타입을 실행하는 메인 코드
 위에서 소개된 과정을 따라서 Flutter 를 실행이 가능하다면 직접 프로토타입을 경험해 볼 수 있습니다 ✨
 <br/>
 <br/>
-<a href="https://www.youtube.com/watch?v=uvFH1tF58iM">시연영상 보기</a>
+<a href="https://youtu.be/IwJkYmmxSGU">시연영상 보기</a>
 
 
