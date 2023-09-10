@@ -20,7 +20,8 @@
 
 ## 📌 권장 사항
 <p>Flutter 와 Android studio 설치와 환경설정이 다소 복잡하여 아래에 있는 시연영상으로 확인하시는걸 권장해드립니다.</p>
-<a href="https://www.youtube.com/watch?v=uvFH1tF58iM">시연영상 바로 가기</a>
+
+### ![시연영상 보기](https://www.youtube.com/watch?v=uvFH1tF58iM)
 
 ## 시작하기
 ### 필수사항
@@ -75,6 +76,7 @@ lib/main.dart : 프로토타입을 실행하는 메인 코드
 ## 프로토타입 미리보기
 ### 1. 팝업 퀴즈
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6aa1f72c-e005-465f-9cae-48a3c6ffe786" width="490" height="750"/></span>
+-----
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/ad42932d-50ef-4a47-b2d7-203b88237f89" width="490" height="750"/></span> 
 
 ### 2. 메인 서비스
@@ -83,8 +85,11 @@ lib/main.dart : 프로토타입을 실행하는 메인 코드
 
 ### 3. 기타 상세 페이지
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/1f9cd7ef-bd79-4d6c-b3f3-b78e767ad630" width="490" height="750"/></span>
+-----
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/b069c135-b83b-4adf-84d7-e05656fb51e0" width="490" height="750"/></span>
+-----
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/b9e824b7-0761-4987-9966-5b274f97a1aa" width="490" height="750"/></span>
+-----
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/99f692c5-18d9-4768-9fef-b55ae728dd14" width="490" height="750"/></span>
 
 ## 시연 영상
