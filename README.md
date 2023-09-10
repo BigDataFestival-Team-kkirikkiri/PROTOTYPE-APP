@@ -38,7 +38,7 @@
 
 1. 저희 깃허브 레포지토리를 클론합니다.
    ```
-   git clone https://github.com/khlskahd-dasdsad-asdwdw/app.git
+   git clone https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP.git //// 이 부분 나중에 수정 !!
    ```
 2. 프로젝트 디렉토리로 이동합니다.
    ```
