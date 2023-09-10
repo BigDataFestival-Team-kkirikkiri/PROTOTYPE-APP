@@ -42,7 +42,7 @@
    ```
 2. 프로젝트 디렉토리로 이동합니다.
    ```
-   cd ./app/service_prototype
+   cd ./PROTOTYPE-APP/service_prototype
    ```
 3. 필요한 종속성을 설치합니다. 터미널에서 진행해주시면 됩니다.
    ```
@@ -75,22 +75,22 @@ lib/main.dart : 프로토타입을 실행하는 메인 코드
 ```
 ## 프로토타입 미리보기
 ### 1. 팝업 퀴즈
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/6aa1f72c-e005-465f-9cae-48a3c6ffe786" width="490" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/f5ad998e-c8ea-42d6-a2a7-d12f2b21e962" width="490" height="750"/></span>
 -----
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/ad42932d-50ef-4a47-b2d7-203b88237f89" width="490" height="750"/></span> 
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/455b3556-63fb-4c47-9c37-8465d61fef77" width="490" height="750"/></span> 
 
 ### 2. 메인 서비스
 <div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/d1b16520-6de4-4140-900d-7443205e81e8" width="510" height="750"/></div> 
 <div><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/c3db19a8-a652-4658-914c-625f6ae69aeb" width="510" height="750"/></div> 
 
 ### 3. 기타 상세 페이지
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/0595dc2b-ca50-4ee2-b187-3de2be674b3a" width="490" height="750"/></span>
+-----
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/1f9cd7ef-bd79-4d6c-b3f3-b78e767ad630" width="490" height="750"/></span>
 -----
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/b069c135-b83b-4adf-84d7-e05656fb51e0" width="490" height="750"/></span>
 -----
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/b9e824b7-0761-4987-9966-5b274f97a1aa" width="490" height="750"/></span>
------
-<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/app/assets/122766043/99f692c5-18d9-4768-9fef-b55ae728dd14" width="490" height="750"/></span>
+<span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/0a29add9-a82a-4553-8eab-4519294f45f0" width="490" height="750"/></span>
 
 ## 시연 영상
 아래 '시연영상보기' 링크로 들어가 시연영상을 확인해주세요<br/>
