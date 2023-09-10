@@ -55,16 +55,6 @@ class QuizModal extends StatelessWidget {
                         fontWeight: FontWeight.bold)
                   ],
                 ),
-                // const Row(
-                //   mainAxisAlignment: MainAxisAlignment.center,
-                //   children: [
-                //     textWidget(
-                //         text: "'하이브'의 주가는",
-                //         textColor: Colors.white,
-                //         fontSize: 18,
-                //         fontWeight: FontWeight.bold),
-                //   ],
-                // ),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -100,7 +90,7 @@ class QuizModal extends StatelessWidget {
                           fontSize: 13,
                           fontWeight: FontWeight.w500),
                       TextWidget(
-                          text: " #Super Shy",
+                          text: " #빌보드",
                           textColor: Colors.white,
                           fontSize: 13,
                           fontWeight: FontWeight.w500),

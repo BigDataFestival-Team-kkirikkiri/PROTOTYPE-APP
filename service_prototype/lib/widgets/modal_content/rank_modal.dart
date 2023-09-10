@@ -38,7 +38,8 @@ class RankModal extends StatelessWidget {
               fontWeight: FontWeight.w600),
           const SizedBox(height: 20),
           Table(
-            border: TableBorder.all(),
+            border: TableBorder.all(
+                color: const Color.fromARGB(255, 182, 182, 182)),
             children: const [
               TableRow(
                 children: [
@@ -149,17 +150,6 @@ class RankModal extends StatelessWidget {
                     padding: EdgeInsets.all(8.0),
                     child: Text(
                       textAlign: TextAlign.center,
-                      "40%",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600),
-                    ),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      textAlign: TextAlign.center,
                       "30%",
                       style: TextStyle(
                           color: Colors.white,
@@ -171,7 +161,18 @@ class RankModal extends StatelessWidget {
                     padding: EdgeInsets.all(8.0),
                     child: Text(
                       textAlign: TextAlign.center,
-                      "30%",
+                      "10%",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 13,
+                          fontWeight: FontWeight.w600),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Text(
+                      textAlign: TextAlign.center,
+                      "5%",
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 13,
