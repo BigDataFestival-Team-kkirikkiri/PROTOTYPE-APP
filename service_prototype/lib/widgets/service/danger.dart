@@ -58,7 +58,7 @@ class DangerWidget extends StatelessWidget {
                 ),
                 Container(
                   padding:
-                      const EdgeInsets.symmetric(vertical: 1, horizontal: 10),
+                      const EdgeInsets.symmetric(vertical: 2.5, horizontal: 10),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(5),
                     color: stockRateBgColor.withOpacity(0.5),
@@ -68,7 +68,7 @@ class DangerWidget extends StatelessWidget {
                     style: TextStyle(
                         color: stockRateColor,
                         fontSize: allfontSize,
-                        fontWeight: FontWeight.bold),
+                        fontWeight: FontWeight.w400),
                   ),
                 )
               ],

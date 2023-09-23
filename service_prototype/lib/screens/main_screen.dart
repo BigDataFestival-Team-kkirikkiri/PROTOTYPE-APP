@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:prototype/widgets/common/containerSpace.dart';
 import 'package:prototype/widgets/common/content_color_between.dart';
-import 'package:prototype/widgets/common/more.dart';
+import 'package:prototype/widgets/common/more_rate.dart';
 import 'package:prototype/widgets/common/new_text.dart';
 import 'package:prototype/widgets/modal_title/danger_title.dart';
 import 'package:prototype/widgets/modal_title/pattern_title.dart';
@@ -42,7 +42,7 @@ class MainService extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       DangerTitle(title1: "나의 관심 종목 위험도 평가", fontSize: 20),
-                      MoreWidget(content: "더보기", fontSize: 15),
+                      MoreClickWidget(content: "위험도 기준 설정", fontSize: 15),
                     ],
                   ),
                 ),
@@ -52,7 +52,7 @@ class MainService extends StatelessWidget {
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
-                stockRateColor: Colors.red,
+                stockRateColor: Colors.white,
                 stockRateBgColor: Colors.red,
                 allfontSize: 16,
                 iconColor: Colors.blue,
@@ -64,7 +64,7 @@ class MainService extends StatelessWidget {
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
-                stockRateColor: Colors.red,
+                stockRateColor: Colors.white,
                 stockRateBgColor: Colors.red,
                 allfontSize: 16,
                 iconColor: Colors.yellow,
@@ -76,7 +76,7 @@ class MainService extends StatelessWidget {
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
-                stockRateColor: Colors.blue,
+                stockRateColor: Colors.white,
                 stockRateBgColor: Colors.blue,
                 allfontSize: 16,
                 iconSize: 15,
@@ -88,7 +88,7 @@ class MainService extends StatelessWidget {
                 bgColor: Colors.black,
                 entColor: Colors.white,
                 stockColor: Colors.red,
-                stockRateColor: Colors.red,
+                stockRateColor: Colors.white,
                 stockRateBgColor: Colors.red,
                 allfontSize: 16,
                 iconSize: 15,
@@ -134,7 +134,7 @@ class MainService extends StatelessWidget {
                 rate: "+ 0.48%",
                 fontSize: 13,
                 iconColor: Colors.yellow,
-                rateColor: Colors.red,
+                rateColor: Colors.white,
                 containerColor: Colors.red),
             const PeopleList(
                 rank: "2",
@@ -143,7 +143,7 @@ class MainService extends StatelessWidget {
                 rate: "+ 1.68%",
                 fontSize: 13,
                 iconColor: Colors.blue,
-                rateColor: Colors.red,
+                rateColor: Colors.white,
                 containerColor: Colors.red),
             const PeopleList(
                 rank: "3",
@@ -152,7 +152,7 @@ class MainService extends StatelessWidget {
                 rate: "- 0.21%",
                 fontSize: 13,
                 iconColor: Colors.yellow,
-                rateColor: Colors.blue,
+                rateColor: Colors.white,
                 containerColor: Colors.blue),
             const PeopleList(
                 rank: "4",
@@ -161,7 +161,7 @@ class MainService extends StatelessWidget {
                 rate: "- 0.53%",
                 fontSize: 13,
                 iconColor: Colors.yellow,
-                rateColor: Colors.blue,
+                rateColor: Colors.white,
                 containerColor: Colors.blue),
             const PeopleList(
                 rank: "5",
@@ -170,7 +170,7 @@ class MainService extends StatelessWidget {
                 rate: "- 1.97%",
                 fontSize: 13,
                 iconColor: Colors.red,
-                rateColor: Colors.blue,
+                rateColor: Colors.white,
                 containerColor: Colors.blue),
             const PeopleList(
                 rank: "6",
@@ -179,7 +179,7 @@ class MainService extends StatelessWidget {
                 rate: "+ 2.49%",
                 fontSize: 13,
                 iconColor: Colors.blue,
-                rateColor: Colors.red,
+                rateColor: Colors.white,
                 containerColor: Colors.red),
             const PeopleListMe(
                 rank: "상위 42%",
@@ -188,7 +188,7 @@ class MainService extends StatelessWidget {
                 rate: "+ 3.44%",
                 fontSize: 13,
                 iconColor: Colors.blue,
-                rateColor: Colors.red,
+                rateColor: Colors.white,
                 containerColor: Colors.red),
             const ContainerSpace(spaceHeight: 4.5),
             const RankTitle(

@@ -56,11 +56,12 @@ class PeopleList extends StatelessWidget {
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: fontSize,
-                    fontWeight: FontWeight.bold),
+                    fontWeight: FontWeight.w500),
               ),
               CompanyDanger(name: name, fontSize: fontSize, color: iconColor),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 3),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 7, vertical: 4.5),
                 decoration: BoxDecoration(
                     color: containerColor.withOpacity(0.5),
                     borderRadius: BorderRadius.circular(3)),
@@ -68,7 +69,7 @@ class PeopleList extends StatelessWidget {
                     style: TextStyle(
                         color: rateColor,
                         fontSize: fontSize,
-                        fontWeight: FontWeight.bold)),
+                        fontWeight: FontWeight.w500)),
               ),
             ],
           ),
