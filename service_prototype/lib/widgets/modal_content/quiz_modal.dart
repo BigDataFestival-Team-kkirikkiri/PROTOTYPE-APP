@@ -149,9 +149,9 @@ class QuizModal extends StatelessWidget {
                             child: const Text(
                               "+ 3.44%",
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.white,
                                   fontSize: 15,
-                                  fontWeight: FontWeight.bold),
+                                  fontWeight: FontWeight.w500),
                             ),
                           ),
                         ],
