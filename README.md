@@ -1,6 +1,8 @@
 # 게이미피케이션을 활용한 주가예측 기반의 종목 위험도 평가와 고객 군집화 및 수익률 랭킹 서비스
+![결선 발표 자료_최종_1](https://github.com/BigDataFestival-Team-kkirikkiri/FINAL-CODE-DATA/assets/122766043/f0879e18-3c7d-44b4-bf4d-38786cf51689)
+![결선 발표 자료_최종_6](https://github.com/BigDataFestival-Team-kkirikkiri/FINAL-CODE-DATA/assets/122766043/b564fe46-0e1f-4982-9ba8-9fa57e6fdd04)
 
-### 서비스 개요
+## 서비스 개요
 본 팀의 서비스는 주식 시장에 본격적으로 입문하고 싶지만 주식에 대한 어려움을 느끼는 일명 '주린이' 고객들을 주요 대상으로 합니다. 메인 서비스는 <위험도 예측>, <고객군집화>이며 이 서비스들을 활성화하기 위한 방안으로 게이미피케이션을 고안하였습니다.
 
 해당 프로토타입은 이런한 서비스들을 사용자가 이용 할 수 있도록 구현하였습니다. 
@@ -8,7 +10,7 @@
 
 현재까지는 프론프로 구현된 앱이며, 추후에 백엔드와 연동할 예정입니다.
 
-### 팀 소개
+## 팀 소개
 <p>팀명 : 끼리끼리</p>
 <p>프로젝트 기간 : 2023/07/01 ~ 2023/09/13</p>
 
@@ -73,7 +75,17 @@ lib/widgets/title : 서비스 제목을 위한 widget
 
 lib/main.dart : 프로토타입을 실행하는 메인 코드
 ```
-## 프로토타입 미리보기
+
+## (신)프로토타입 미리보기 
+![1](https://github.com/BigDataFestival-Team-kkirikkiri/PROTOTYPE-APP/assets/122766043/ad2795c9-3e34-478e-9596-4228ff3c88dc)
+![2](https://github.com/BigDataFestival-Team-kkirikkiri/PROTOTYPE-APP/assets/122766043/d9597e27-a8c6-46d9-92b9-df170e28d926)
+![3](https://github.com/BigDataFestival-Team-kkirikkiri/PROTOTYPE-APP/assets/122766043/91d353d5-3706-4474-b012-ca79c11ec8e2)
+![4](https://github.com/BigDataFestival-Team-kkirikkiri/PROTOTYPE-APP/assets/122766043/f049fd87-97a5-4971-a080-57e6d1711f7e)
+![5](https://github.com/BigDataFestival-Team-kkirikkiri/PROTOTYPE-APP/assets/122766043/10e3443f-d5f2-4e77-9c82-042478ebad0b)
+![6](https://github.com/BigDataFestival-Team-kkirikkiri/PROTOTYPE-APP/assets/122766043/ad16ffe0-2fff-40bc-a508-7a08341c9ce8)
+![7](https://github.com/BigDataFestival-Team-kkirikkiri/PROTOTYPE-APP/assets/122766043/3164d9b3-9b10-4c43-b87d-5f7d8751e1d5)
+
+## (구)프로토타입 미리보기
 ### 1. 팝업 퀴즈
 #### 1-1. 퀴즈 화면
 <span><img src="https://github.com/khlskahd-dasdsad-asdwdw/PROTOTYPE-APP/assets/122766043/f5ad998e-c8ea-42d6-a2a7-d12f2b21e962" width="490" height="750"/></span>
