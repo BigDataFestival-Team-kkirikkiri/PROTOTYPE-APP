@@ -23,7 +23,8 @@
 ## 📌 권장 사항
 <p>Flutter 와 Android studio 설치와 환경설정이 다소 복잡하여 아래에 있는 시연영상으로 확인하시는걸 권장해드립니다.</p>
 
-### [☑️ 시연영상 보기](https://youtu.be/IwJkYmmxSGU)
+### [☑️ 구 프로토타입 시연영상 보기](https://youtu.be/IwJkYmmxSGU)
+### [☑️ 신 프로토타입 시연영상 보기](https://www.youtube.com/shorts/Aw9wJdy4Z4Y)
 
 ## 시작하기
 ### 필수사항
